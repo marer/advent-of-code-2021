@@ -24,6 +24,9 @@ dependencies:
 
 library:
   source-dirs: src
+  dependencies: 
+  - split
+  - mtl
 
 executables:
   AdventOfCode2021-exe:
