@@ -1,13 +1,13 @@
-module Day2 (day2) where
+module Day02 (day02) where
 
 import Prelude
 import Data.Maybe (catMaybes)
 import Data.List.Split (splitOn)
 import Control.Monad.State (State, execState, modify)
 
-day2 :: IO ()
-day2 = do
-    input <- readFile "data/day2.txt"
+day02 :: IO ()
+day02 = do
+    input <- readFile "data/day02.txt"
     let commands = catMaybes $ parseCommand <$> lines input
     putStrLn $ "Day 2 answer 1: " <> show (process1 commands)
     putStrLn $ "Day 2 answer 2: " <> show (process2 commands)

@@ -1,9 +1,11 @@
 module Main where
 
-import Day1
-import Day2
+import Day01
+import Day02
+import Day03
 
 main :: IO ()
 main = do
-    -- day1
-    day2
+    -- day01
+    -- day02
+    day03
