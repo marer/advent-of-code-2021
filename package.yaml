@@ -27,6 +27,8 @@ library:
   dependencies: 
   - split
   - mtl
+  - array
+  - containers
 
 executables:
   AdventOfCode2021-exe:
