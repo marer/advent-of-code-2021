@@ -33,6 +33,7 @@ library
       Day06
       Day07
       Day08
+      Day09
   other-modules:
       Paths_AdventOfCode2021
   hs-source-dirs:
