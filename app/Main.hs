@@ -9,6 +9,7 @@ import Day06
 import Day07
 import Day08
 import Day09
+import Day10
 
 main :: IO ()
 main = do
@@ -20,4 +21,5 @@ main = do
     -- day06
     -- day07
     -- day08
-    day09
+    -- day09
+    day10
