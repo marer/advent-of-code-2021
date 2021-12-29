@@ -38,6 +38,7 @@ library
       Day11
       Day12
       Day13
+      Day14
   other-modules:
       Paths_AdventOfCode2021
   hs-source-dirs:
