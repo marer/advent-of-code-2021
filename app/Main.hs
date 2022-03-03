@@ -1,4 +1,6 @@
 module Main where
+    
+import System.TimeIt
 
 import Day01
 import Day02
@@ -14,6 +16,7 @@ import Day11
 import Day12
 import Day13
 import Day14
+import Day15
 
 main :: IO ()
 main = do
@@ -30,4 +33,6 @@ main = do
     -- day11
     -- day12
     -- day13
-    day14
+    -- day14
+    timeIt day15
+
