@@ -1,2 +1,10 @@
+import Test.Hspec
+
+import qualified Day16Spec
+
 main :: IO ()
-main = putStrLn "Test suite not yet implemented"
+main = hspec spec
+
+spec :: Spec
+spec = do
+  describe "Day16" Day16Spec.spec

@@ -42,9 +42,13 @@ packages:
 #
 extra-deps: 
 - PSQueue-1.1.0.1
+- hex-text-0.1.0.4
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
+flags:
+  mintty:
+    Win32-2-13-1: false
 
 # Extra package databases containing global packages
 # extra-package-dbs: []

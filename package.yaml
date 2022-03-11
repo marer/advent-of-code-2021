@@ -30,6 +30,10 @@ library:
   - array
   - containers
   - PSQueue
+  - bytestring
+  - hex-text
+  - text
+  - extra
 
 executables:
   AdventOfCode2021-exe:
@@ -53,3 +57,4 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - AdventOfCode2021
+    - hspec
