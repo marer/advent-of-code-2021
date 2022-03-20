@@ -19,6 +19,7 @@ import Day14
 import Day15
 import Day16
 import Day17
+import Day18
 
 main :: IO ()
 main = timeIt $ do
@@ -38,5 +39,6 @@ main = timeIt $ do
     -- day14
     -- day15
     -- day16
-    day17
+    -- day17
+    day18
 

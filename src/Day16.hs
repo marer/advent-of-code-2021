@@ -1,5 +1,5 @@
 {-# LANGUAGE OverloadedStrings #-}
-module Day16 where
+module Day16 (day16, answer1, answer2) where
 
 import qualified Data.ByteString as B
 import qualified Data.Text as T
